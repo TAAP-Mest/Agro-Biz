@@ -1,0 +1,10 @@
+.imageContainer{
+/* height: 580px; */
+max-height: 90dvh;
+
+}
+
+.imageSizer{
+object-fit: cover;
+max-width: 100%;
+}
