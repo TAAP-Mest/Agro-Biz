@@ -1,12 +1,11 @@
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/header/Navbar";
+import Navbar from "../../components/header";
+
 
 
  const Landingpage = () => {
   return (
     <div>
       <Navbar/>
-      <Footer/>
     </div>
   )
 }
