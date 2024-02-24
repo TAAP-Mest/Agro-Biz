@@ -1,43 +1,59 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+
+// import styles from './index.modules.css'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
 
 
 const SellerDashboard = () => {
     return (
-        <section>
-            <Container fluid>
-                <Row className='rows'>
-                    <label htmlFor="categorie">Categories</label>
-                    <select className="categorie">
-                        <option value="" disabled selected hidden>Select a Category</option>
-                        <option value="tools & equipment">Tools & Equipment</option>
-                        <option value="foodstuff">Foodstuff</option>
-                        <option value="farm inputs">Farm Inputs</option>
-                    </select>
-                </Row>
+        <Form>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Categories</Form.Label>
+                <Form.Select type=''>
+                    <option value="" disabled selected hidden>Select a Category</option>
+                    <option value="tools & equipment">Tools & Equipment</option>
+                    <option value="foodstuff">Foodstuff</option>
+                    <option value="farm inputs">Farm Inputs</option>
+                </Form.Select>
+            </Form.Group>
 
-                <Row className='rows'>
-                    <input type="text" placeholder='Name of item' />
-                </Row>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Item Name</Form.Label>
+                <Form.Control type=" " placeholder="Name of item" />
+            </Form.Group>
 
-                <Row className='rows'>
-                    <input type="text" placeholder='Item description' />
-                </Row>
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Description</Form.Label>
+                <Form.Control type=" " placeholder="Describe the item" />
+            </Form.Group>
 
-                <Row className='rows'>
-                    <input type="text" placeholder='Name of item' />
-                </Row>
+            <Form.Group controlId="formFileMultiple" className="mb-3">
+                <Form.Label>Upload Image</Form.Label>
+                <Form.Control type="file" multiple />
+            </Form.Group>
 
-                <Row className='rows'>
-                    <input type="text" placeholder='Name of item' />
-                </Row>
+            <Form.Floating className="mb-3">
+                <Form.Control
+                    id="floatingInputCustom"
+                    type="number"
+                />
+                <label htmlFor="floatingInputCustom">Quantity</label>
+            </Form.Floating>
+            <Form.Floating className="mb-3">
+                <Form.Control
+                    id="floatingInputCustom"
+                    type="number"
+                />
+                <label htmlFor="floatingInputCustom">Price (GHS)</label>
+            </Form.Floating>
 
-                <Row className='rows'>
-                    <input type="text" placeholder='Name of item' />
-                </Row>
-            </Container>
+            <Button variant="primary" type="publish item">
+                Publish Item
+            </Button>
+        </Form>
 
-        </section>
+
     )
 }
 
