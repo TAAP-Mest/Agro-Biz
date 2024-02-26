@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const FilterProducts = () => {
   return (
     <div className="col-lg-8 text-end">
@@ -28,7 +26,7 @@ const FilterProducts = () => {
             {" "}
             <span className="text-dark" style={{ width: 130 }}>
               {" "}
-              Vegetables
+              Seeds
             </span>
           </a>
         </li>
@@ -54,7 +52,7 @@ const FilterProducts = () => {
             {" "}
             <span className="text-dark" style={{ width: 130 }}>
               {" "}
-              Bread
+              Vegetables
             </span>
           </a>
         </li>
@@ -66,8 +64,7 @@ const FilterProducts = () => {
           >
             {" "}
             <span className="text-dark" style={{ width: 130 }}>
-              {" "}
-              Meat
+              Insecticides
             </span>
           </a>
         </li>
