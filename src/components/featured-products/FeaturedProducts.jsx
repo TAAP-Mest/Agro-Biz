@@ -3,8 +3,7 @@ import HeadingProduct from "./HeadingProduct";
 import FilterProducts from "./FilterProducts";
 import FruitsCatalog from "./Fruits";
 import SeedsCatalog from "./SeedsCatalog";
-import AllProducts from "./AllProducts"; 
-
+import AllProducts from "./AllProducts";
 
 const FeaturedProducts = () => {
   return (
@@ -27,7 +26,8 @@ const FeaturedProducts = () => {
                 <SeedsCatalog />
               </div>
               <div id="tab-3" className="tab-pane fade show p-0">
-                <div className="row g-4">
+                <FruitsCatalog/>
+                {/* <div className="row g-4">
                   <div className="col-lg-12">
                     <div className="row g-4">
                       <div className="col-md-6 col-lg-4 col-xl-3">
@@ -104,7 +104,7 @@ const FeaturedProducts = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div id="tab-4" className="tab-pane fade show p-0">
                 <div className="row g-4">
