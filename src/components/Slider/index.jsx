@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 
 function Slider() {
   return (
-    <Carousel pause='false'>
+    <Carousel className={styles.heroBox} pause='false'>
       
       <Carousel.Item className={styles.imageContainer}  interval={5000}>
         <img src= {slider1} className={styles.imageSizer} alt='' />
