@@ -1,5 +1,5 @@
 import "./App.css";
-import ShopPage from "./pages/ShopPage";
+import MarketPlace from "./pages/MarketPlace";
 
 import LandingPage from "./pages/landing";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
-      <ShopPage />
+      <MarketPlace/>
     </div>
   );
 }
