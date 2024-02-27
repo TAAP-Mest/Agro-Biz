@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const AllProducts = () => {
   return (
-        <div className="row g-4">
+    <div className="row g-4">
       <div className="col-lg-12">
         <div className="row g-4">
           <div className="col-md-6 col-lg-4 col-xl-3">
@@ -43,7 +43,7 @@ const AllProducts = () => {
             <div className="rounded position-relative fruite-item">
               <div className="fruite-img">
                 <img
-                  src="img/fruite-item-5.jpg"
+                  src="img/SEEDS.jpg"
                   className="img-fluid w-100 rounded-top"
                   alt
                 />
@@ -52,10 +52,10 @@ const AllProducts = () => {
                 className="text-white bg-secondary px-3 py-1 rounded position-absolute"
                 style={{ top: 10, left: 10 }}
               >
-                Fruits
+                Seeds
               </div>
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                <h4>Grapes</h4>
+                <h4>CARROT NEW KURODA</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
                   eiusmod te incididunt
@@ -77,7 +77,7 @@ const AllProducts = () => {
             <div className="rounded position-relative fruite-item">
               <div className="fruite-img">
                 <img
-                  src="img/fruite-item-2.jpg"
+                  src="img/ALTIFURA.jpg"
                   className="img-fluid w-100 rounded-top"
                   alt
                 />
@@ -86,10 +86,10 @@ const AllProducts = () => {
                 className="text-white bg-secondary px-3 py-1 rounded position-absolute"
                 style={{ top: 10, left: 10 }}
               >
-                Fruits
+                Insecticides
               </div>
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                <h4>Raspberries</h4>
+                <h4>Altifura 5G</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
                   eiusmod te incididunt
@@ -145,7 +145,7 @@ const AllProducts = () => {
             <div className="rounded position-relative fruite-item">
               <div className="fruite-img">
                 <img
-                  src="img/fruite-item-3.jpg"
+                  src="img/tomatoes.jpg"
                   className="img-fluid w-100 rounded-top"
                   alt
                 />
@@ -154,7 +154,7 @@ const AllProducts = () => {
                 className="text-white bg-secondary px-3 py-1 rounded position-absolute"
                 style={{ top: 10, left: 10 }}
               >
-                Fruits
+                Vegetables
               </div>
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>Banana</h4>
@@ -280,7 +280,7 @@ const AllProducts = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default AllProducts;
