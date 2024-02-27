@@ -4,16 +4,8 @@ const ShopPage = () => {
   return (
     <section>
       <div>
-        {/* Spinner Start */}
-        {/* <div
-          id="spinner"
-          className="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center"
-        >
-          <div className="spinner-grow text-primary" role="status" />
-        </div> */}
-        {/* Spinner End */}
         {/* Navbar start */}
-        <div className="container-fluid fixed-top">
+        {/* <div className="container-fluid fixed-top">
           <div className="container topbar bg-primary d-none d-lg-block">
             <div className="d-flex justify-content-between">
               <div className="top-info ps-2">
@@ -126,10 +118,10 @@ const ShopPage = () => {
               </div>
             </nav>
           </div>
-        </div>
+        </div> */}
         {/* Navbar End */}
         {/* Modal Search Start */}
-        <div
+        {/* <div
           className="modal fade"
           id="searchModal"
           tabIndex={-1}
@@ -164,7 +156,7 @@ const ShopPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Modal Search End */}
         {/* Single Page Header start */}
         <div className="container-fluid page-header py-5">
@@ -183,10 +175,11 @@ const ShopPage = () => {
         {/* Fruits Shop Start*/}
         <div className="container-fluid fruite py-5">
           <div className="container py-5">
-            <h1 className="mb-4">Fresh fruits shop</h1>
+            <h1 className="mb-4">Agro shop</h1>
             <div className="row g-4">
               <div className="col-lg-12">
                 <div className="row g-4">
+                  {/* input field - search bar */}
                   <div className="col-xl-3">
                     <div className="input-group w-100 mx-auto d-flex">
                       <input
@@ -200,10 +193,12 @@ const ShopPage = () => {
                       </span>
                     </div>
                   </div>
+
                   <div className="col-6" />
+                  {/* Filter */}
                   <div className="col-xl-3">
                     <div className="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
-                      <label htmlFor="fruits">Default Sorting:</label>
+                      <label htmlFor="fruits">Filter:</label>
                       <select
                         id="fruits"
                         name="fruitlist"
@@ -218,6 +213,7 @@ const ShopPage = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="row g-4">
                   <div className="col-lg-3">
                     <div className="row g-4">
@@ -229,7 +225,7 @@ const ShopPage = () => {
                               <div className="d-flex justify-content-between fruite-name">
                                 <a href="#">
                                   <i className="fas fa-apple-alt me-2" />
-                                  Apples
+                                  Seeds
                                 </a>
                                 <span>(3)</span>
                               </div>
@@ -238,7 +234,7 @@ const ShopPage = () => {
                               <div className="d-flex justify-content-between fruite-name">
                                 <a href="#">
                                   <i className="fas fa-apple-alt me-2" />
-                                  Oranges
+                                  Fruits
                                 </a>
                                 <span>(5)</span>
                               </div>
@@ -247,7 +243,7 @@ const ShopPage = () => {
                               <div className="d-flex justify-content-between fruite-name">
                                 <a href="#">
                                   <i className="fas fa-apple-alt me-2" />
-                                  Strawbery
+                                  Vegetables
                                 </a>
                                 <span>(2)</span>
                               </div>
@@ -256,18 +252,9 @@ const ShopPage = () => {
                               <div className="d-flex justify-content-between fruite-name">
                                 <a href="#">
                                   <i className="fas fa-apple-alt me-2" />
-                                  Banana
+                                  Insecticdes
                                 </a>
                                 <span>(8)</span>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="d-flex justify-content-between fruite-name">
-                                <a href="#">
-                                  <i className="fas fa-apple-alt me-2" />
-                                  Pumpkin
-                                </a>
-                                <span>(5)</span>
                               </div>
                             </li>
                           </ul>
@@ -375,9 +362,9 @@ const ShopPage = () => {
                               <i className="fa fa-star" />
                             </div>
                             <div className="d-flex mb-2">
-                              <h5 className="fw-bold me-2">2.99 $</h5>
+                              <h5 className="fw-bold me-2">26.99 Ghs</h5>
                               <h5 className="text-danger text-decoration-line-through">
-                                4.11 $
+                                4.11 Ghs
                               </h5>
                             </div>
                           </div>
@@ -403,9 +390,9 @@ const ShopPage = () => {
                               <i className="fa fa-star" />
                             </div>
                             <div className="d-flex mb-2">
-                              <h5 className="fw-bold me-2">2.99 $</h5>
+                              <h5 className="fw-bold me-2">40.99 Ghs</h5>
                               <h5 className="text-danger text-decoration-line-through">
-                                4.11 $
+                                4.11 Ghs
                               </h5>
                             </div>
                           </div>
@@ -431,16 +418,16 @@ const ShopPage = () => {
                               <i className="fa fa-star" />
                             </div>
                             <div className="d-flex mb-2">
-                              <h5 className="fw-bold me-2">2.99 $</h5>
+                              <h5 className="fw-bold me-2">20 Ghs</h5>
                               <h5 className="text-danger text-decoration-line-through">
-                                4.11 $
+                                40.11 Ghs
                               </h5>
                             </div>
                           </div>
                         </div>
                         <div className="d-flex justify-content-center my-4">
                           <a
-                            href="#"
+                            href="<FeaturedProducts/>#"
                             className="btn border border-secondary px-4 py-3 rounded-pill text-primary w-100"
                           >
                             Vew More
@@ -463,7 +450,7 @@ const ShopPage = () => {
                             }}
                           >
                             <h3 className="text-secondary fw-bold">
-                              Fresh <br /> Fruits <br /> Banner
+                              Our <br /> Fresh <br /> Fruits
                             </h3>
                           </div>
                         </div>
@@ -665,17 +652,17 @@ const ShopPage = () => {
                             className="text-white bg-secondary px-3 py-1 rounded position-absolute"
                             style={{ top: 10, left: 10 }}
                           >
-                            Fruits
+                            Vegetables
                           </div>
                           <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                            <h4>Oranges</h4>
+                            <h4>Tomatoes</h4>
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit sed do eiusmod te incididunt
                             </p>
                             <div className="d-flex justify-content-between flex-lg-wrap">
                               <p className="text-dark fs-5 fw-bold mb-0">
-                                $4.99 / kg
+                                Ghs25.99 / kg
                               </p>
                               <a
                                 href="#"
@@ -701,17 +688,17 @@ const ShopPage = () => {
                             className="text-white bg-secondary px-3 py-1 rounded position-absolute"
                             style={{ top: 10, left: 10 }}
                           >
-                            Fruits
+                            Insecticides
                           </div>
                           <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                            <h4>Raspberries</h4>
+                            <h4>Altifura 3G</h4>
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit sed do eiusmod te incididunt
                             </p>
                             <div className="d-flex justify-content-between flex-lg-wrap">
                               <p className="text-dark fs-5 fw-bold mb-0">
-                                $4.99 / kg
+                                Ghs100.99 / kg
                               </p>
                               <a
                                 href="#"
@@ -747,7 +734,7 @@ const ShopPage = () => {
                             </p>
                             <div className="d-flex justify-content-between flex-lg-wrap">
                               <p className="text-dark fs-5 fw-bold mb-0">
-                                $4.99 / kg
+                                Ghs30.99 / kg
                               </p>
                               <a
                                 href="#"
@@ -773,17 +760,17 @@ const ShopPage = () => {
                             className="text-white bg-secondary px-3 py-1 rounded position-absolute"
                             style={{ top: 10, left: 10 }}
                           >
-                            Fruits
+                            Seeds
                           </div>
                           <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                            <h4>Oranges</h4>
+                            <h4>CARROT NEW KURODA</h4>
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit sed do eiusmod te incididunt
                             </p>
                             <div className="d-flex justify-content-between flex-lg-wrap">
                               <p className="text-dark fs-5 fw-bold mb-0">
-                                $4.99 / kg
+                                Ghs18.99 / kg
                               </p>
                               <a
                                 href="#"
@@ -796,7 +783,7 @@ const ShopPage = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-12">
+                      {/* <div className="col-12">
                         <div className="pagination d-flex justify-content-center mt-5">
                           <a href="#" className="rounded">
                             «
@@ -823,7 +810,7 @@ const ShopPage = () => {
                             »
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
