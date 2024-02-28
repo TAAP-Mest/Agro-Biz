@@ -1,10 +1,12 @@
-import LandingPage from "./components/LandingPage";
-
+// import './App.css';
+import LandingPage from './pages/Landing page';
+import SellingPage from './pages/Selling page';
 
 function App() {
   return (
     <div>
-     <LandingPage /> 
+      <LandingPage />
+      <SellingPage />
     </div>
   );
 }
