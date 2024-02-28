@@ -15,16 +15,16 @@ import {
 const SellerDashboard = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar color="transparent" sx={{ my: "1rem" }} position="static">
+      <AppBar sx={{ my: "1rem", backgroundColor: 'green' }} position="static">
         <Toolbar sx={{ display: "flex", justifyContent: "end" }}>
           <Button variant="contained" color="primary">
             My Profile
           </Button>
         </Toolbar>
       </AppBar>
-      <Typography sx={{ mx: "1rem" }}>My store</Typography>
+      <Typography sx={{ mx: "1rem", color: 'blue' }}>My store</Typography>
       <Grid container spacing={3}>
-        <Grid xs={4}>
+        <Grid item xs={4}>
             <Card
               sx={{ maxWidth: 345, my: "2rem", mx: "3rem", height: "100%" }}
             >
