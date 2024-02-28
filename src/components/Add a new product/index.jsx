@@ -1,11 +1,21 @@
 // import styles from './index.modules.css'
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-
+// import { useLocalStorage } from "usehooks-ts";
 
 const AddNewProduct = () => {
+
+const [item, setItem] = useState('');
+
+function addProducts(event) {
+    setItem(event.target.value);
+    console.log(event.target.value);
+}
+
+
     return (
 
         <Form>
@@ -22,7 +32,7 @@ const AddNewProduct = () => {
 
             <Form.Group as={Col} className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Item Name</Form.Label>
-                <Form.Control type=" " placeholder="Name of item" />
+                <Form.Control onChange={addProducts} value={item} placeholder="Name of item" />
             </Form.Group>
             </Row>
 

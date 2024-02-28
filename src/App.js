@@ -17,6 +17,8 @@ function App() {
   return (
     <div>
      <RouterProvider router={sellerrouter}/>
+     <AddNewProduct />
+    
     </div>
   );
 }
