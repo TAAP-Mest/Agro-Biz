@@ -20,7 +20,7 @@ const Data = [
     {
       id: 3,
       src: ella,
-      name: 'Ella',
+      name: 'Ellah',
       title: 'Restaurant Owner',
       description: '“Running a restaurant means sourcing high-quality ingredients consistently. FreshHarvest has become my go-to platform for procuring fresh produce directly from local farmers. The website’s real-time inventory updates, competitive pricing, and reliable delivery service have streamlined my supply chain. My customers appreciate the farm-to-table concept, and I credit it all to FreshHarvest.”'
     },

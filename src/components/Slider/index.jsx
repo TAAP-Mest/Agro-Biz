@@ -4,8 +4,6 @@ import slider3 from '../../Assets/slider3.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './index.module.css'
 import Button from 'react-bootstrap/Button';
-// import { AppBar, Toolbar, IconButton, } from "@mui/material";
-// import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 
 function Slider() {
@@ -17,7 +15,7 @@ function Slider() {
         <img src= {slider1} className={styles.imageSizer} alt='' />
         <Carousel.Caption className={styles.captionBox}>
         <h2 className={styles.headLine}>Quality Agriculture Products</h2>
-          <h4 className={styles.welcomeToAgro}>Welcome to AgroBiz. We believe in better Agriculture for better future</h4>
+          <p className={styles.welcomeToAgro}>Welcome to AgroBiz. We believe in better Agriculture for better future</p>
           <div className={styles.button}>
           <Button className={styles.callToAction}>Buy Here</Button>
           <Button className={styles.callToAction}>Sell Here</Button>

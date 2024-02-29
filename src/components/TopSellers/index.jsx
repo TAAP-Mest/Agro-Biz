@@ -1,15 +1,12 @@
-// import styles from "./index.module.css";
+
 
 const TopSellers = () => {
   return (
-
-
-
     <section className="TopSellers">
       <div className="container-fluid py-5">
         <div className="container py-5">
           <div className="text-center mx-auto mb-5" style={{ maxWidth: 700, paddingBottom: '3 rem'}}>
-            <h1 className="display-4">TOP SELLERS</h1>
+            <p className="display-4" id="heading">TOP SELLERS</p>
           </div>
           <div className="row g-4">
             {/* Keep This Part */}
@@ -94,7 +91,7 @@ const TopSellers = () => {
                     Victory 72 WP
                   </a>
                   <div className="d-flex my-3 justify-content-center"></div>
-                  <h4 className="mb-3">15 ghc</h4>
+                  <h4 className="mb-3">115 ghc</h4>
                   <a
                     href="#"
                     className="btn border border-secondary button-square px-3 text-success"

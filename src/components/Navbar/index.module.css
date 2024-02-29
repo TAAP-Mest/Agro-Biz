@@ -36,8 +36,8 @@
   }
 
   .logoImage{
-    object-fit: scale-down;
+    object-fit: cover;
     image-rendering: inherit;
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
   }
