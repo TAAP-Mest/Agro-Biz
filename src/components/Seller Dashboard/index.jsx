@@ -1,15 +1,4 @@
-import {
-  AppBar,
-  Toolbar,
-  Button,
-  Box,
-  Typography,
-  Container,
-  Card,
-  CardMedia,
-  CardContent,
-  CardActions,
-  Grid,
+import { AppBar,Toolbar,Button,Box,Typography,Container,Card,CardMedia,CardContent,CardActions,Grid,
 } from "@mui/material";
 
 const SellerDashboard = () => {
