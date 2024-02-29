@@ -107,7 +107,7 @@ function sellerContact(event) {
                 <Form.Control
                 onChange={sellerContact}
                     id="floatingInputCustom"
-                    type='number'
+                    type='tell'
                     value={contact}
                 />
                 <label htmlFor="floatingInputCustom"> Seller's Contact</label>
