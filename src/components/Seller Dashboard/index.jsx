@@ -1,7 +1,22 @@
-import { AppBar,Toolbar,Button,Box,Typography,Container,Card,CardMedia,CardContent,CardActions,Grid,
+import {
+  AppBar, Toolbar, Button, Box, Typography, Container, Grid,
+  Card, CardMedia, CardContent, CardActions,
+
 } from "@mui/material";
+// import ProductItem from "../Add a new product/products item";
+import { useLocalStorage } from "usehooks-ts";
 
 const SellerDashboard = () => {
+
+  const [products, setProducts] = useLocalStorage('ADDPRODUCTS_KEY', []);
+  console.log(products)
+
+  function deleteAll() {
+    setProducts([]);
+  }
+
+
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar sx={{ my: "1rem", backgroundColor: 'green' }} position="static">
@@ -13,25 +28,31 @@ const SellerDashboard = () => {
       </AppBar>
       <Typography sx={{ mx: "1rem", color: 'blue' }}>My store</Typography>
       <Grid container spacing={3}>
-        <Grid item xs={4}>
+        {products.map(product => (
+          <Grid item xs={4}>
             <Card
               sx={{ maxWidth: 345, my: "2rem", mx: "3rem", height: "100%" }}
+
             >
               <CardMedia component="img" alt="item" height="160" image="" />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Item name
+                  {product.item}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Provide product details here
+                  {product.description}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  GHS {product.price}
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button size="medium">Edit</Button>
-                <Button size="medium">Delete</Button>
+                <Button onClick={deleteAll} size="medium">Delete</Button>
               </CardActions>
             </Card>
-        </Grid>
+          </Grid>
+        ))}
       </Grid>
 
       <Container sx={{ my: "2rem" }} maxWidth="sm">
