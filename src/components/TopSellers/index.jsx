@@ -18,7 +18,7 @@ const TopSellers = () => {
                 <img
                   src="https://www.agromonti.com/wp-content/uploads/2020/07/CELECTOR-2-265x230.jpg"
                   className="img-fluid rounded"
-                  alt
+                  alt= " "
                 />
                 <div className="py-4">
                   <a href="#" className="h5">

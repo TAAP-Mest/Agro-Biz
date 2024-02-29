@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import Slider from "../../components/Slider";
 import Testimonials from "../../components/Testimonials";
 import TopSellers from "../../components/TopSellers";
+import Footer from "../../components/footer";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <Slider />
       <TopSellers />
       <Testimonials />
+      <Footer />
       
 
     </div>

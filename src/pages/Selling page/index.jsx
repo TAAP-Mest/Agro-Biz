@@ -1,11 +1,11 @@
+import React from 'react'
 
-
-const SellingPage = () => {
+const SelllingPage = () => {
   return (
     <div>
-  
+      
     </div>
   )
 }
 
-export default SellingPage;
+export default SelllingPage
