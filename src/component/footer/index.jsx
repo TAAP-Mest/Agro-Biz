@@ -11,15 +11,19 @@ const footerStyle = {
   color: "white",
   padding: "20px",
   height: "45vh",
-  display: "flex",
   width: "100%",
-  justifyContent: "space-evenly",
 };
+
+const displayStyle = {
+  justifyContent: "space-evenly",
+  display: "flex",
+
+}
 
 export default function Footer() {
   return (
-    <div>
-      <div style={footerStyle}>
+    <div style={footerStyle}>
+      <div style={displayStyle} >
         <div>
           <img src="" alt="Agro-Biz" />
           <div style={{ display: "flex" }}>
@@ -70,13 +74,11 @@ export default function Footer() {
       <div
         style={{
           textAlign: "center",
-          height: "5vh",
-          background: "whitesmoke",
           color: "gray",
-          paddingTop: "5px",
+          paddingTop: "50px",
         }}
       >
-        &#169; Agrobiz Inc. @ 2024
+       Copyright &#169; Agrobiz Inc. 2024
       </div>
     </div>
   );
