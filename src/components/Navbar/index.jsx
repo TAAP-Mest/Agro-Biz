@@ -1,8 +1,8 @@
 import { AppBar, Toolbar, IconButton, Button, Box } from "@mui/material";
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
-import styles from './index.module.css'
-import logo from '../../Assets/logo.png'
+import styles from './index.module.css';
+import logo from '../../Assets/logo.png';
 
 export default function Navbar() {
   return (
@@ -19,11 +19,11 @@ export default function Navbar() {
       <AppBar sx={{ my: '4rem', background: 'transparent', boxShadow: 'none', position: 'absolute', zIndex: '100'}} position="fixed">
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-evenly'}} >
           <img className={styles.logoImage} src={logo} alt="AgroBiz" />
-          <Button color = 'inherit' variant="text">Home</Button>
-          <Button color = 'inherit'variant="text">About Us</Button>
-          <Button color = 'inherit'variant="text">Market Place</Button>
-          <Button color = 'inherit'variant="text">Sell Now</Button>
-          <Button color = 'inherit'variant="text">Contact Us</Button>
+          <span>Home</span>
+          <span> About Us</span>
+          <span> Market Place</span>
+          <span> Sell Now</span>
+          <span><a href="#footer">Contact Us</a> </span>
           <IconButton color="inherit" aria-label="add to shopping cart">
             <AddShoppingCartIcon />
           </IconButton>
