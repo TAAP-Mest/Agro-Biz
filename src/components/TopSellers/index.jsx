@@ -1,5 +1,4 @@
 
-
 const TopSellers = () => {
   return (
     <section className="TopSellers">
@@ -105,6 +104,7 @@ const TopSellers = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

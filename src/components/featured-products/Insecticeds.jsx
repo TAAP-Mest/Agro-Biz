@@ -28,7 +28,7 @@ const Insecticeds = () => {
                   maize, etc.
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs25.00 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs25.00 </p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"
@@ -63,7 +63,7 @@ const Insecticeds = () => {
                   maize, etc.
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs30.00 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs30.00</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"

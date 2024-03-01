@@ -23,11 +23,10 @@ const SeedsCatalog = () => {
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>CARROT NEW KURODA</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmod te incididunt
+                  Viable Seed
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs4.99 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs55</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"
@@ -57,11 +56,10 @@ const SeedsCatalog = () => {
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>SWEET PEPPER NIKITA</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmod te incididunt
+                Viable Seed
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs4.99 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs45</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"
@@ -91,11 +89,10 @@ const SeedsCatalog = () => {
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>CARROT NEW KURODA</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmod te incididunt
+                Viable Seed
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs4.99 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs47</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"
@@ -125,11 +122,10 @@ const SeedsCatalog = () => {
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>BEET CRIMSON GLOBE</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmod te incididunt
+                Viable Seed
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs4.99 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs63</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"

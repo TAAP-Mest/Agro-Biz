@@ -23,11 +23,10 @@ const VegetablesCatalog = () => {
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>Tomatoes</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmod te incididunt
+                  Fresh and Organic
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs4.99 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs36.50 / kg</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"
@@ -57,11 +56,10 @@ const VegetablesCatalog = () => {
               <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                 <h4>Basel</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                  eiusmod te incididunt
+                Fresh and Organic
                 </p>
                 <div className="d-flex justify-content-between flex-lg-wrap">
-                  <p className="text-dark fs-5 fw-bold mb-0">Ghs4.99 / kg</p>
+                  <p className="text-dark fs-5 fw-bold mb-0">Ghs25 / kg</p>
                   <a
                     href="#"
                     className="btn border border-secondary rounded-pill px-3 text-primary"
