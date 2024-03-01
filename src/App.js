@@ -1,10 +1,10 @@
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/AboutUs";
-import MarketPlace from "./pages/MarketPlace";
 import SellingPage from "./pages/SellingPage";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
+import MarketPlace from "./pages/Marketplace";
 
 export default function App() {
   return (
