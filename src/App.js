@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import MarketPlace from "./pages/Marketplace";
 
+
 export default function App() {
   return (
     <>
