@@ -26,7 +26,7 @@ const ViewCart = () => {
                         src="img/vegetable-item-3.png"
                         className="img-fluid me-5 rounded-circle"
                         style={{ width: 80, height: 80 }}
-                        alt
+                        alt=""
                       />
                     </div>
                   </th>
@@ -71,10 +71,10 @@ const ViewCart = () => {
                   <th scope="row">
                     <div className="d-flex align-items-center">
                       <img
-                        src="img/SEEDS-CARROT-2.jpg"
+                        src="img-SEEDS-CARROT-2.jpg"
                         className="img-fluid me-5 rounded-circle"
                         style={{ width: 80, height: 80 }}
-                        alt
+                        alt=""
                       />
                     </div>
                   </th>
@@ -122,7 +122,7 @@ const ViewCart = () => {
                         src="img/ALTIFURA-2.jpg"
                         className="img-fluid me-5 rounded-circle"
                         style={{ width: 80, height: 80 }}
-                        alt
+                        alt=""
                       />
                     </div>
                   </th>
@@ -207,7 +207,7 @@ const ViewCart = () => {
                   className="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4"
                   type="button"
                 >
-                  <Link to="/bill">Proceed Checkout</Link>
+                  <Link to="/market/bill">Proceed Checkout</Link>
                 </button>
               </div>
             </div>

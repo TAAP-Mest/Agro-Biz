@@ -27,7 +27,7 @@ const ShopPage = () => {
                   {/* input */}
                   <SearchBar />
                   <span className={styles.veiwCart}>
-                    <Link to="/view"> View Cart</Link>
+                    <Link to="/market/view"> View Cart</Link>
                   </span>
                 </div>
                 <div className="col-6" />
@@ -37,6 +37,7 @@ const ShopPage = () => {
               <div className="row g-4">
                 <div className="col-lg-3">
                   <div className="row g-4">
+                    <SinglePageHeader/>
                     <ProductCategories />
                     <ProductPrices />
                     <AdditonalInfo />
