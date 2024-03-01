@@ -6,6 +6,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import logo from "../../Assets/logo.png";
 import styles from "./index.module.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -22,13 +23,18 @@ export default function Footer() {
         <div>
           <h5 className={styles.link}>Links</h5>
           <ul className={styles.list}>
-            <li>Home</li>
-            <li>Market Place</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/market">Market Place</Link>
+            </li>
           </ul>
         </div>
         <div>
           <h5 className={styles.link}>About us</h5>
           <ul className={styles.list}>
+            <li>Our Story</li>
             <li>Mission</li>
             <li>Vision</li>
           </ul>

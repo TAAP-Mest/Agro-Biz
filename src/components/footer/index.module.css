@@ -1,5 +1,5 @@
 .foot {
-  background: linear-gradient(196deg, rgba(1,67,19,1) 0%, rgba(0,0,0,0.9780287114845938) 86%);
+  background: linear-gradient(196deg, rgba(1, 67, 19, 1) 0%, rgba(0, 0, 0, 0.9780287114845938) 86%);
   color: white;
   padding-top: 50px;
   height: 65vh;
@@ -13,33 +13,33 @@
 }
 
 .logo {
-    object-fit: cover;
-    image-rendering: inherit;
-    width: 180px;
-    height: 180px;
+  object-fit: cover;
+  image-rendering: inherit;
+  width: 180px;
+  height: 180px;
 }
 
 .icon {
-    display: flex;
-     padding: 30px 50px; 
+  display: flex;
+  padding: 30px 50px;
 }
 
 .link {
-    color: #00b207;
+  color: #00b207;
 }
 
-.list { 
-    list-style-type: none;
-    padding: 0;
-    line-height: 2;
+.list {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2;
 }
 
 .copy {
-    text-align: center;
-    color: gray;
-    padding-top: 50px;
-  }
+  text-align: center;
+  color: gray;
+  padding-top: 30px;
+}
 
-  .info {
-    display: flex;
-  }
+.info {
+  display: flex;
+}

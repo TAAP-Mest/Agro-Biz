@@ -1,17 +1,23 @@
-// import './App.css';
-
 import LandingPage from "./pages/LandingPage";
+import About from "./pages/AboutUs";
+import MarketPlace from "./pages/MarketPlace";
 import SellingPage from "./pages/SellingPage";
-
-// import About from "./pages/About/AboutUs";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
     <>
-    <LandingPage/>
-    <SellingPage/>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/market" element={<MarketPlace />} />
+        <Route path="/sell" element={<SellingPage />} />
+      </Routes>
+      <Footer />
     </>
-    
-  
   );
 }
