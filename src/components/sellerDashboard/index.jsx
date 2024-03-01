@@ -1,14 +1,16 @@
-import {AppBar, Toolbar, Button, Box, Typography, Container, Grid,Card, CardMedia, CardContent, CardActions,} from "@mui/material";
-// import ProductItem from "../Add a new product/products item";
+import { AppBar, Toolbar, Button, Box, Typography, Container, Grid, Card, CardMedia, CardContent, CardActions, } from "@mui/material";
+import styles from './index.module.css'
 import { useLocalStorage } from "usehooks-ts";
+import { Link } from "react-router-dom";
 
 const SellerDashboard = () => {
 
   const [products, setProducts] = useLocalStorage('ADDPRODUCTS_KEY', []);
   console.log(products)
 
-  function deleteAll() {
-    setProducts([]);
+  function deleteItem(index) {
+    // console.log(index)
+    setProducts(products.filter((p, i) => i !== index));
   }
 
 
@@ -17,15 +19,15 @@ const SellerDashboard = () => {
     <Box sx={{ flexGrow: 1 }} >
       <AppBar sx={{ my: "1rem", backgroundColor: 'rgb(0,178,7)' }} position="static">
         <Toolbar sx={{ display: "flex", justifyContent: "end" }}>
-          <Button sx={{background: "rgb(0,178,7)"}} variant="contained" >
+          <span className={styles.startSelling}>
             My Profile
-          </Button>
+          </span>
         </Toolbar>
       </AppBar>
       <Typography sx={{ mx: "1rem", color: 'black' }}> <h1><i>My store</i></h1> </Typography>
-     
+
       <Grid container spacing={3}>
-        {products.map(product => (
+        {products.map((product, index) => (
           <Grid item xs={4}>
             <Card
               sx={{ maxWidth: 345, my: "2rem", mx: "3rem", height: "100%" }}
@@ -47,18 +49,25 @@ const SellerDashboard = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="medium">Edit</Button>
-                <Button onClick={deleteAll} size="medium">Delete</Button>
+                <span> 
+                  <Link to="/edit">
+                    EDIT
+                    </Link>             
+                </span>
+                <Button onClick={() => deleteItem(index)} size="medium">DELETE</Button>
               </CardActions>
             </Card>
           </Grid>
         ))}
       </Grid>
 
-      <Container sx={{ my: "10rem", ml: '0rem'}} maxWidth="sm">
-        <Button sx={{background: "rgb(0,178,7)", color: 'white'}} size="large" variant="outlined">
+      <Container sx={{ my: "10rem", ml: '0rem' }} maxWidth="sm">
+        {/* <Button sx={{background: "rgb(0,178,7)", color: 'white'}} size="large" variant="outlined">
           Start selling
-        </Button>
+        </Button> */}
+        <span className={styles.nextPage}><Link to="/add">Start Selling</Link>
+          
+        </span>
       </Container>
     </Box>
   );

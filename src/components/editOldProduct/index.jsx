@@ -11,9 +11,9 @@ import { Link } from 'react-router-dom';
 
 
 
-const AddNewProduct = () => {
+const EditOldProduct = () => {
 
-    const [addProducts, setAddProducts] = useLocalStorage('ADDPRODUCTS_KEY', []);
+    const [editProducts, setEditProducts] = useLocalStorage('ADDPRODUCTS_KEY', []);
 
     const [item, setItem] = useState('');
     const [description, setDescription] = useState('');
@@ -23,8 +23,9 @@ const AddNewProduct = () => {
 
 
 
-    function saveAddProducts() {
-        setAddProducts([...addProducts, { item, description, file, quantity, price, }]);
+    function saveEditProducts() {
+        setEditProducts([...editProducts, { item, description, file, quantity, price, }])
+        
     }
 
     function itemName(event) {
@@ -55,10 +56,10 @@ const AddNewProduct = () => {
         <section>
             <AppBar sx={{ my: "1rem", backgroundColor: 'rgb(0,178,7)' }} position="static">
                 <Toolbar sx={{ display: "flex", justifyContent: "end" }}>
-                    <span className={styles.nextPage}> 
-                    <Link to='/'>
-                    My Store
-                    </Link>
+                    <span className={styles.startSelling}>
+                       <Link to= '/'>
+                       My store
+                       </Link>
                     </span>
                 </Toolbar>
             </AppBar>
@@ -76,7 +77,7 @@ const AddNewProduct = () => {
 
                     <Form.Group className="mb-3">
                         <Form.Label>Upload Image</Form.Label>
-                        <Form.Control onChange={fileUpload} value={file} type="file" />
+                        <Form.Control onChange={fileUpload} value={file} type="file" multiple />
                     </Form.Group>
 
                     <Row className="mb-3">
@@ -105,9 +106,9 @@ const AddNewProduct = () => {
 
                     <Button
                         xs={{ background: "rgb(0,178,7)" }}
-                        onClick={saveAddProducts}
+                        onClick={saveEditProducts}
                         variant="primary" type="submit">
-                        Publish Item
+                        Save Item
                     </Button>
                 </Form>
             </div >
@@ -121,4 +122,4 @@ const AddNewProduct = () => {
     );
 }
 
-export default AddNewProduct;
+export default EditOldProduct;

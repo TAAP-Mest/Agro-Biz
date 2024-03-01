@@ -1,5 +1,6 @@
 import AddNewProduct from "../../components/Addanewproduct";
-import EditProduct from "../../components/Editproduct";
+import EditOldProduct from "../../components/EditOldProduct";
+
 import SellerDashboard from "../../components/sellerDashboard";
 
 const SellingPage = () => {
@@ -7,7 +8,7 @@ const SellingPage = () => {
         <section>
             <SellerDashboard />
             <AddNewProduct />
-            <EditProduct />
+            <EditOldProduct />
         </section>
 
     )
