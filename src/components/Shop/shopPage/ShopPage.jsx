@@ -1,33 +1,24 @@
 import React from "react";
-import SearchBar from "./InputSearchBar/SearchBar";
-import FilterProducts from "./Filter/FilterProducts";
-import ProductCategories from "./Categories/ProductCategories";
-import ProductPrices from "./Prices/ProductPrices";
-import AdditonalInfo from "./Additonal/AdditonalInfo";
-import FeaturedProducts from "./Featured/FeaturedProducts";
-import FruitsBanner from "./Banner/FruitsBanner";
-import ProductCards from "./Catalogue/ProductCards";
+import SearchBar from "../InputSearchBar/SearchBar";
+import FilterProducts from "../Filter/FilterProducts";
+import ProductCategories from "../Categories/ProductCategories";
+import ProductPrices from "../Prices/ProductPrices";
+import AdditonalInfo from "../Additonal/AdditonalInfo";
+import FeaturedProducts from "../Featured/FeaturedProducts";
+import FruitsBanner from "../Banner/FruitsBanner";
+import ProductCards from "../Catalogue/ProductCards";
+import SinglePageHeader from "../PageHeader/SinglePageHeader";
+import styles from "../shopPage/Shop.module.css";
+import { Link } from "react-router-dom";
+// import ViewCart from "../Cart/ViewCart";
+
 const ShopPage = () => {
   return (
     <section>
-      {/* Single Page Header start */}
-      <div className="container-fluid page-header py-5">
-        <h1 className="text-center text-white display-6">Shop</h1>
-        <ol className="breadcrumb justify-content-center mb-0">
-          <li className="breadcrumb-item">
-            <a href="#">Home</a>
-          </li>
-          <li className="breadcrumb-item">
-            <a href="#">Pages</a>
-          </li>
-          <li className="breadcrumb-item active text-white">Shop</li>
-        </ol>
-      </div>
-      {/* Single Page Header End */}
       {/* Agro Shop Start*/}
       <div className="container-fluid fruite py-5">
         <div className="container py-5">
-          <h1 className="mb-4">Agro shop</h1>
+          <h1 className="mb-4">Market Place</h1>
           <div className="row g-4">
             <div className="col-lg-12">
               <div className="row g-4">
@@ -35,6 +26,9 @@ const ShopPage = () => {
                 <div className="col-xl-3">
                   {/* input */}
                   <SearchBar />
+                  <span className={styles.veiwCart}>
+                    <Link to="/view"> View Cart</Link>
+                  </span>
                 </div>
                 <div className="col-6" />
                 {/* Filter */}
@@ -58,7 +52,6 @@ const ShopPage = () => {
           </div>
         </div>
       </div>
-      {/* Agro Shop End*/}
     </section>
   );
 };

@@ -1,0 +1,14 @@
+.veiwCart{
+    position: relative;
+    float: right;
+    left: 38rem;
+    bottom: 3rem;
+    display: flex;
+  width: 50%;
+  height: auto;
+    justify-content: center;
+    background-color: rgb(45, 151, 61);
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

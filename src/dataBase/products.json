@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "name": "Grapes",
+      "img": "img/fruite-item-5.jpg",
+      "categories": ["Fruits"],
+      "price": "Ghs4.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 2,
+      "name": "Grapes",
+      "img": "img/fruite-item-5.jpg",
+      "categories": ["Fruits"],
+      "price": "Ghs4.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 3,
+      "name": "Raspberries",
+      "img": "img/fruite-item-2.jpg",
+      "categories": ["Vegetables"],
+      "price": "Ghs4.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 4,
+      "name": "Apricots",
+      "img": "img/fruite-item-4.jpg",
+      "categories": ["Fruits"],
+      "price": "Ghs4.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 5,
+      "name": "Banana",
+      "img": "img/fruite-item-3.jpg",
+      "categories": ["Fruits"],
+      "price": "Ghs4.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 6,
+      "name": "Oranges",
+      "img": "img/fruite-item-1.jpg",
+      "categories": ["Fruits"],
+      "price": "Ghs25.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 7,
+      "name": "Altifura 3G",
+      "img": "img/fruite-item-2.jpg",
+      "categories": ["Insecticides"],
+      "price": "Ghs100.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 8,
+      "name": "Grapes",
+      "img": "img/fruite-item-5.jpg",
+      "categories": ["Fruits"],
+      "price": "Ghs30.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    },
+    {
+      "id": 9,
+      "name": "CARROT NEW KURODA",
+      "img": "img/fruite-item-1.jpg",
+      "categories": ["Seeds"],
+      "price": "Ghs18.99 / kg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt"
+    }
+  ]
+  
+  

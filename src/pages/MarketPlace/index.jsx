@@ -1,5 +1,5 @@
 import React from "react";
-import ShopPage from "../../components/Shop/ShopPage";
+import ShopPage from "../../components/Shop/shopPage/ShopPage";
 
 const MarketPlace = () => {
   return (
