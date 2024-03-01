@@ -1,8 +1,8 @@
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import SellerDashboard from "./components/Seller Dashboard";
-import AddNewProduct from "./components/Add a new product";
-import EditProduct from "./components/Edit a product";
+import SellerDashboard from "./components/sellerDashboard";
+import AddNewProduct from "./components/Addanewproduct";
+import EditProduct from "./components/Editproduct";
 
 const sellerrouter = createBrowserRouter([
   {path:"/", element: <SellerDashboard/>},

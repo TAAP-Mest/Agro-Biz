@@ -1,8 +1,4 @@
-import {
-  AppBar, Toolbar, Button, Box, Typography, Container, Grid,
-  Card, CardMedia, CardContent, CardActions,
-
-} from "@mui/material";
+import {AppBar, Toolbar, Button, Box, Typography, Container, Grid,Card, CardMedia, CardContent, CardActions,} from "@mui/material";
 // import ProductItem from "../Add a new product/products item";
 import { useLocalStorage } from "usehooks-ts";
 
@@ -18,15 +14,16 @@ const SellerDashboard = () => {
 
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar sx={{ my: "1rem", backgroundColor: 'green' }} position="static">
+    <Box sx={{ flexGrow: 1 }} >
+      <AppBar sx={{ my: "1rem", backgroundColor: 'rgb(0,178,7)' }} position="static">
         <Toolbar sx={{ display: "flex", justifyContent: "end" }}>
-          <Button variant="contained" color="primary">
+          <Button sx={{background: "rgb(0,178,7)"}} variant="contained" >
             My Profile
           </Button>
         </Toolbar>
       </AppBar>
-      <Typography sx={{ mx: "1rem", color: 'blue' }}>My store</Typography>
+      <Typography sx={{ mx: "1rem", color: 'black' }}> <h1><i>My store</i></h1> </Typography>
+     
       <Grid container spacing={3}>
         {products.map(product => (
           <Grid item xs={4}>
@@ -43,6 +40,9 @@ const SellerDashboard = () => {
                   {product.description}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
+                  QTY: {product.quantity}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
                   GHS {product.price}
                 </Typography>
               </CardContent>
@@ -55,8 +55,8 @@ const SellerDashboard = () => {
         ))}
       </Grid>
 
-      <Container sx={{ my: "2rem" }} maxWidth="sm">
-        <Button size="large" variant="outlined">
+      <Container sx={{ my: "10rem", ml: '0rem'}} maxWidth="sm">
+        <Button sx={{background: "rgb(0,178,7)", color: 'white'}} size="large" variant="outlined">
           Start selling
         </Button>
       </Container>

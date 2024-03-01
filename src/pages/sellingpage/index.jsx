@@ -1,6 +1,6 @@
-import AddNewProduct from "../../components/Add a new product";
-import EditProduct from "../../components/Edit a product";
-import SellerDashboard from "../../components/Seller Dashboard";
+import AddNewProduct from "../../components/Addanewproduct";
+import EditProduct from "../../components/Editproduct";
+import SellerDashboard from "../../components/sellerDashboard";
 
 const SellingPage = () => {
     return (
