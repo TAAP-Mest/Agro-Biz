@@ -4,7 +4,7 @@ import SellingPage from "./pages/SellingPage";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
-import MarketPlace from "./pages/Marketplace";
+import MarketPlace from "./pages/MarketPlace";
 
 export default function App() {
   return (

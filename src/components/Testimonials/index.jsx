@@ -4,22 +4,20 @@ import TestimonialData from "./TestimonialsData";
 export default function Testimonials() {
   const dataComp = Data.map((data) => {
     return (
-
-<Carousel pause="false" className={styles.heroBox}>
-{
-  
-}
-
-</Carousel> 
-       
-
-      <TestimonialData
-        key={data.id}
-        name={data.name}
-        src={data.src}
-        description={data.description}
-        title={data.title}
-      />
+      <>
+        {" "}
+        <Carousel pause="false" className={styles.heroBox}>
+          {}
+        </Carousel>
+        <TestimonialData
+          key={data.id}
+          name={data.name}
+          src={data.src}
+          description={data.description}
+          title={data.title}
+        />
+        ;
+      </>
     );
   });
   return <div>{dataComp}</div>;
